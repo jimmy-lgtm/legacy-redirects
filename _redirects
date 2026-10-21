@@ -145,5 +145,35 @@ https://www.myprimepainting.com/*  https://elevencoatspainting.com/  301!
 http://myprimepainting.com/*  https://elevencoatspainting.com/  301!
 http://www.myprimepainting.com/*  https://elevencoatspainting.com/  301!
 
-# Catch-all
-/*  https://elevencoatspainting.com/:splat  301!
+# Section fallbacks for unmapped legacy paths (after page-level rules)
+/services/*  https://elevencoatspainting.com/services/  301!
+/service/*  https://elevencoatspainting.com/services/  301!
+/painting-services/*  https://elevencoatspainting.com/services/  301!
+/interior/*  https://elevencoatspainting.com/interior-painting/  301!
+/exterior/*  https://elevencoatspainting.com/exterior-painting/  301!
+/cabinet/*  https://elevencoatspainting.com/cabinet-refinishing/  301!
+/cabinets/*  https://elevencoatspainting.com/cabinet-refinishing/  301!
+/kitchen/*  https://elevencoatspainting.com/cabinet-refinishing/  301!
+/commercial/*  https://elevencoatspainting.com/commercial/  301!
+/hoa/*  https://elevencoatspainting.com/commercial/  301!
+/contact/*  https://elevencoatspainting.com/contact/  301!
+/contact-us/*  https://elevencoatspainting.com/contact/  301!
+/schedule/*  https://elevencoatspainting.com/contact/  301!
+/quote/*  https://elevencoatspainting.com/contact/  301!
+/estimate/*  https://elevencoatspainting.com/contact/  301!
+/free-estimate/*  https://elevencoatspainting.com/contact/  301!
+/about/*  https://elevencoatspainting.com/about/  301!
+/about-us/*  https://elevencoatspainting.com/about/  301!
+/blog/*  https://elevencoatspainting.com/blog/  301!
+/news/*  https://elevencoatspainting.com/blog/  301!
+/gallery/*  https://elevencoatspainting.com/projects/  301!
+/photo-gallery/*  https://elevencoatspainting.com/projects/  301!
+/projects/*  https://elevencoatspainting.com/projects/  301!
+/recent-projects/*  https://elevencoatspainting.com/projects/  301!
+/portfolio/*  https://elevencoatspainting.com/projects/  301!
+/pricing/*  https://elevencoatspainting.com/pricing/  301!
+/faq/*  https://elevencoatspainting.com/faq/  301!
+/faqs/*  https://elevencoatspainting.com/faq/  301!
+
+# Catch-all: anything else -> homepage
+/*  https://elevencoatspainting.com/  301!
